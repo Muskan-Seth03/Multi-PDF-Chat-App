@@ -1,0 +1,31 @@
+# Ignore virtual environment
+venv/
+
+# Ignore environment variables
+.env
+
+# Ignore FAISS index files (usually binary data)
+faiss_index/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# macOS and Linux OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Python virtual environment or package folders
+*.egg-info/
+dist/
+build/
