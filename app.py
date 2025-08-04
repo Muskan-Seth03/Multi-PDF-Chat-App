@@ -82,7 +82,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Multi PDF Agent", page_icon=":scroll:")
-    st.header("📚 Multi-PDF-Agent 🤖 ")
+    st.header("Multi-PDF's 📚-Chat Agent🤖")
 
     user_question = st.text_input("Ask a Question from the PDF Files uploaded .. ✍️📝")
 
